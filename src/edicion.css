@@ -119,12 +119,22 @@ align-items: center;
     width: 17%;
     margin: 4px;
 }
+.recuadro{
+    width: 65%;
+    margin: 4px;
+    border-radius: 200px;
+}
 .tituloproducto{
    text-align: center;
     color: rgb(39, 39, 132);
     margin-bottom: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+}.tituloproductorecuadro{
+    text-align: center;
+     color: rgb(39, 39, 132);
+     margin-bottom:0px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
 @media screen and (max-width: 768px) {
     .section {
         padding-top: 40px;

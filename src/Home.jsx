@@ -11,6 +11,7 @@ import diapo5 from './fotos/diapo5.png';
 import diapo6 from './fotos/diapo6.png';
 import diapo7 from './fotos/diapo7.png';
 import diapo8 from './fotos/diapo8.png';
+import diapo9 from './fotos/recuadros.png'
 
 
 function EstiloPerfecto() {
@@ -38,17 +39,23 @@ function EstiloPerfecto() {
       </div>
       <div className="container">
         <p className="primertexto">
-          <h3>BACKGROUND</h3><br /><br />
+        <br /><br />
+          <h3>BACKGROUND</h3><br />
+          
           En aquel entonces acababa de terminar mi estudios en diseño ux, y en charlas comunes con mi novia y amigos y<br />
           surgía constantemente el tema de la moda, sus accesorios, calzado y mas, por lo que me puse a investigar en Google,<br />
           youtube, Pinterest y otros. Me encontré con páginas y videos que podían sugerirte las mejores combinaciones de ropa<br /> basándose en los colores y la moda, pero ninguno tenía la opción de un guardado fácil o bien simplemente no se<br /> adecuaban a las prendas que cada persona poseía en casa y sobre todo a mano, entonces teníamos que recurrir a hacer<br /> capturas de pantalla, guardar links en Gmail o enviar videos por WhatsApp, etc... y luego cuando queríamos acceder <br />era una frustración o pérdida de tiempo encontrar los colores justos para el momento justo... 
           <br /><br /><br /><br />
-          <h3>EL PROBLEMA</h3><br /><br />
+          
+          <h3>EL PROBLEMA</h3><br />
           Todas las personas conocen la sensación de desorden y frustración que se crea al no saber qué ropa luciría mejor en <br />
           todo momento y tener que recurrir a  capturas de pantalla guardadas en nuestros teléfonos, correos electrónicos que <br />nos envían amigos o nosotros mismos, por lo que terminamos teniendo tos links sin saber dónde están y dónde<br /> encontrarlos cuando queramos vestirnos. 
           <br />
-          Solución y objetivos Cuando comencé mi investigación, era extremadamente<br /> importante para mí crear un producto que tuviera algo nuevo, vi que había pocas aplicaciones de organización de pren-<br />das pero no se adaptaban a mi visión y no lograban lo prometido. Mi objetivo era crear un producto que se convierta<br />en una solución para la vida cotidiana de las personas, un lugar donde puedan guardar sus prendas con todas las combina-<br />ciones posibles, editarlas, crear sus propios looks, buscar inspiración y poder compartirlo y lucirlo con sus amigos, y<br /> finalmente  tener una vestimenta perfecta.<br />
+          Solución y objetivos Cuando comencé mi investigación, era extremadamente<br /> importante para mí crear un producto que tuviera algo nuevo, vi que había pocas aplicaciones de organización de pren-<br />das pero no se adaptaban a mi visión y no lograban lo prometido. Mi objetivo era crear un producto que se convierta<br />en una solución para la vida cotidiana de las personas, un lugar donde puedan guardar sus prendas con todas las combina-<br />ciones posibles, editarlas, crear sus propios looks, buscar inspiración y poder compartirlo y lucirlo con sus amigos, y<br /> finalmente  tener una vestimenta perfecta.<br /><br />
         </p>
+        <h3>MI ROL</h3>
+        <p className="primertexto">Ser el diseñador UX / UI creando toda la interfaz y la arquitectura pensando en el uso que le va a dar el usuario y una vez realizado encargarme de los testeos.</p>
+        
       </div>
       <div className="section1">
         <p className="segundotexto">
@@ -68,6 +75,8 @@ function EstiloPerfecto() {
       <div className="section2">
         <img  className="imagen2" src={imagen2} alt="Captura de pantalla" />
       </div>
+      <div className="tituloproductorecuadro"><h2 >PROCESO DE DISEÑO</h2></div>
+      <img className="recuadro" src={diapo9} alt="Diapo 1" />
       <div className="tituloproducto"><h2 >EL PRODUCTO</h2></div>
       <div className="product">
         <img className="tamano" src={diapo1} alt="Diapo 1" />
