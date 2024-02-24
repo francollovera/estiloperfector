@@ -166,6 +166,11 @@ align-items: center;
         width: 100%;
         margin-bottom: 50px;
     }
+    .recuadro{
+        width: 75%;
+        margin: 4px;
+        border-radius: 200px;
+    }
     .imag3{
         padding-bottom: 8px;
         width: 25%;
