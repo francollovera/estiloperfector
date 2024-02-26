@@ -1,10 +1,11 @@
 import React from 'react';
 import './edicion.css'; 
-import portada from './fotos/portada-removebg-preview.png';
+import portada from './fotos/diapo1.png';
+import portada1 from './fotos/diapo2.png';
 import imagen1 from './fotos/comentarios.png';
 import imagen2 from './fotos/Captura de pantalla 2023-12-18 164031.png';
 import diapo1 from './fotos/diapo1.png';
-import diapo2 from './fotos/diapo2.png';
+import diapo2 from './fotos/diapo2a.png';
 import diapo3 from './fotos/diapo3.png';
 import diapo4 from './fotos/diapo4.png';
 import diapo5 from './fotos/diapo5.png';
@@ -34,6 +35,7 @@ function EstiloPerfecto() {
           </div>
           <div className="portada">
             <img src={portada} alt="Portada" />
+            <img src={portada1} alt="Portada" />
           </div>
         </div>
       </div>
@@ -75,20 +77,20 @@ function EstiloPerfecto() {
       <div className="section2">
         <img  className="imagen2" src={imagen2} alt="Captura de pantalla" />
       </div>
-      <div className="tituloproductorecuadro"><h2 >PROCESO DE DISEÑO</h2></div>
+      <div className="section2"><h2 >PROCESO DE DISEÑO</h2></div>
       <img className="recuadro" src={diapo9} alt="Diapo 1" />
       <div className="tituloproducto"><h2 >EL PRODUCTO</h2></div>
       <div className="product">
         <img className="tamano" src={diapo1} alt="Diapo 1" />
-        <img  className="tamano" src={diapo2} alt="Diapo 2" />
-        <img  className="imag3" src={diapo3} alt="Diapo 3" />
-        <img className="imag3" src={diapo4} alt="Diapo 4" />
+        <img  className="tamano1" src={diapo2} alt="Diapo 2" />
+        <img  className="tamano2" src={diapo3} alt="Diapo 3" />
+        <img className="tamano3" src={diapo4} alt="Diapo 4" />
       </div>
       <div className="product2">
-        <img className="tamano" src={diapo5} alt="Diapo 5" />
-        <img className="tamano" src={diapo6} alt="Diapo 6" />
-        <img className="tamano" src={diapo7} alt="Diapo 7" />
-        <img className="tamano" src={diapo8} alt="Diapo 8" />
+        <img className="tamano3" src={diapo5} alt="Diapo 5" />
+        <img className="tamano2" src={diapo6} alt="Diapo 6" />
+        <img className="tamano3" src={diapo7} alt="Diapo 7" />
+        <img className="tamano4" src={diapo8} alt="Diapo 8" />
       </div>
     </div>
   );
