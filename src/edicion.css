@@ -211,7 +211,24 @@ align-items: center;
         margin-right:20px ;
     }
     .tamano{
+        width: 24%;
+        margin: 4px;
+    }
+    .tamano1{
         width: 25%;
+        margin: 4px;
+    }
+    .tamano2{
+        width: 30%;
+        margin: 4px;
+    }
+    .tamano3{
+        width: 25%;
+        margin: 4px;
+    
+    }
+    .tamano4{
+        width: 27%;
         margin: 4px;
     }
     .portada img {
