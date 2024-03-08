@@ -13,6 +13,7 @@ import diapo6 from './fotos/diapo6.png';
 import diapo7 from './fotos/diapo7.png';
 import diapo8 from './fotos/diapo8.png';
 import diapo9 from './fotos/recuadros.png'
+import diapo10 from './fotos/paleta.png'
 
 
 function EstiloPerfecto() {
@@ -20,19 +21,7 @@ function EstiloPerfecto() {
     <div className="master">
       <div className="section">
         <div className="content">
-          {/* <div className="text-container">
-            <h3>ESTILO PERFECTO</h3>
-            <p className="textoinicial">
-              "Estilo Perfecto" es una aplicación<br />
-              que tiene como objetivo lograr con<br />
-              rapidez las mejores combinaciones de<br />
-              tus prendas y accesorios para que <br />
-              puedas lucir ese look que siempre <br />
-              quisiste, guardarlos, ordenarlos y <br />
-              almacenarlos en tus favoritos de <br />
-              manera rápida y sencilla.
-            </p>
-          </div> */}
+         
           <div className="portada">
             <img src={portada} alt="Portada" />
             {/* <img src={portada1} alt="Portada" /> */}
@@ -79,6 +68,8 @@ function EstiloPerfecto() {
       </div>
       <div className="section2"><h2 >PROCESO DE DISEÑO</h2></div>
       <img className="recuadro" src={diapo9} alt="Diapo 1" />
+      <div className="section2"><h2 >PALETA DE COLORES</h2></div>
+      <img className="recuadro" src={diapo10} alt="Diapo 1" />
       <div className="tituloproducto"><h2 >EL PRODUCTO</h2></div>
       <div className="product">
         <img className="tamano" src={diapo1} alt="Diapo 1" />
