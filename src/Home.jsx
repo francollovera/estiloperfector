@@ -1,9 +1,9 @@
 import React from 'react';
 import './edicion.css'; 
-import portada from './fotos/diapo1.png';
-import portada1 from './fotos/diapo2.png';
+import portada from './fotos/portada.png';
+// import portada1 from './fotos/diapo2.png';
 import imagen1 from './fotos/comentarios.png';
-import imagen2 from './fotos/Captura de pantalla 2023-12-18 164031.png';
+import imagen2 from './fotos/Brainstorming User Persona Minimalista Azul.png';
 import diapo1 from './fotos/diapo1.png';
 import diapo2 from './fotos/diapo2a.png';
 import diapo3 from './fotos/diapo3.png';
@@ -20,7 +20,7 @@ function EstiloPerfecto() {
     <div className="master">
       <div className="section">
         <div className="content">
-          <div className="text-container">
+          {/* <div className="text-container">
             <h3>ESTILO PERFECTO</h3>
             <p className="textoinicial">
               "Estilo Perfecto" es una aplicación<br />
@@ -32,10 +32,10 @@ function EstiloPerfecto() {
               almacenarlos en tus favoritos de <br />
               manera rápida y sencilla.
             </p>
-          </div>
+          </div> */}
           <div className="portada">
             <img src={portada} alt="Portada" />
-            <img src={portada1} alt="Portada" />
+            {/* <img src={portada1} alt="Portada" /> */}
           </div>
         </div>
       </div>
